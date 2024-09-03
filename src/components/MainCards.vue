@@ -29,7 +29,7 @@ import SampleCard from './SampleCard.vue';
           >
             Add Job
           </a>
-        </SampleCard>
+         </SampleCard>
       </div>
     </div>
   </section>
