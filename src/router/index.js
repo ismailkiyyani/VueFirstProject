@@ -21,15 +21,15 @@ const router = createRouter({
 
         },
         {
-            path: '/job/:id',
-            name: 'jobs',
-            component: JobView,
-
-        },
-        {
             path: '/:catchAll(.*)',
             name: 'not-found',
             component: NotFoundView,
+
+        },
+        {
+            path: '/jobs/:id',
+            name: 'job',
+            component: JobView,
 
         },
     ],
