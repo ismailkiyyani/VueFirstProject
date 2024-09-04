@@ -6,5 +6,5 @@ import JobsListings from '@/components/JobsListings.vue';
 <template>
   <Hero />
   <MainCards />
-  <JobsListings :limit="3" :is-visible="true" />
+  <JobsListings :limit="3" :isVisible="true" />
 </template>
