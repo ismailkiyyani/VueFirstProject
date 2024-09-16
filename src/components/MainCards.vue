@@ -35,3 +35,4 @@ import SampleCard from './SampleCard.vue';
     </div>
   </section>
 </template>
+       
