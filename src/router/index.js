@@ -3,6 +3,7 @@ import homeView from '@/views/HomeView.vue';
 import JobsView from '@/views/JobsView.vue';
 import JobView from '@/views/Job.vue';
 import NotFoundView from '@/views/NotFoundView.vue';
+import AddJob from '@/views/Addjob.vue';
 
 
 const router = createRouter({
@@ -24,6 +25,12 @@ const router = createRouter({
             path: '/:catchAll(.*)',
             name: 'not-found',
             component: NotFoundView,
+
+        },
+        {
+            path: '/jobs/add',
+            name: 'AddJob',
+            component: AddJob,
 
         },
         {
