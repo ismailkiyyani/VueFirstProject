@@ -29,18 +29,18 @@
       }
     },
     {
-      "id": "3",
-      "title": "Vue.js Developer",
       "type": "Full-Time",
+      "title": "Vue.js Developer",
       "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "salary": "$100K - $125K",
       "location": "Brooklyn, NY",
-      "salary": "$70K - $80K",
       "company": {
-        "name": "Dolor Cloud",
+        "name": "Dolor Clouds",
         "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
         "contactEmail": "contact@dolorsitamet.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "3"
     },
     {
       "id": "4",
@@ -138,6 +138,48 @@
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.Reach us for more info.",
         "contactEmail": "contact@loremipsum.com",
         "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "460a",
+      "type": "Internship",
+      "title": "George Sargent",
+      "description": "Dignissimos adipisci",
+      "salary": "$80K - $90K",
+      "location": "Eum minim soluta vol",
+      "company": {
+        "name": "Rowland Booth Traders",
+        "description": "Commodo fuga Animi",
+        "contactEmail": "qeve@mailinator.com",
+        "contactPhone": "+1 (326) 706-3451"
+      }
+    },
+    {
+      "id": "9d11",
+      "type": "Full-Time",
+      "title": "Elton Conway",
+      "description": "Dicta et sint ex co",
+      "salary": "$150K - $175K",
+      "location": "Ea expedita alias di",
+      "company": {
+        "name": "Barnes and Nelson Traders",
+        "description": "Doloribus ut qui est",
+        "contactEmail": "myjytexowu@mailinator.com",
+        "contactPhone": "+1 (453) 728-5866"
+      }
+    },
+    {
+      "id": "a03b",
+      "type": "Full-Time",
+      "title": "Lester Fox",
+      "description": "Corporis ut aut fugi",
+      "salary": "Under $50K",
+      "location": "Eiusmod deserunt par",
+      "company": {
+        "name": "Berg Gallegos Trading",
+        "description": "Consequatur Eum et ",
+        "contactEmail": "rapasykily@mailinator.com",
+        "contactPhone": "+1 (104) 754-8084"
       }
     }
   ]

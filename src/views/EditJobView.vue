@@ -1,7 +1,7 @@
 <script setup>
 import router from '@/router';
 import axios from 'axios';
-import { reactive,onMounted } from 'vue';
+import { reactive, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { useToast } from 'vue-toastification';
 const route = useRoute();
@@ -33,14 +33,14 @@ onMounted(async () => {
     state.job = response.data;
     console.log('response', response);
 
-    form.type = state.job.type, form.title = state.job.title;
-    form.description = state.job.description,
-    form.salary = state.job.salary,
-    form.location = state.job.location,
-    form.company.name = state.job.company.name,
-    form.company.description = state.job.company.description,
-    form.company.contactEmail = state.job.company.contactEmail,
-    form.company.contactPhone = state.job.company.contactPhone;
+    (form.type = state.job.type), (form.title = state.job.title);
+    (form.description = state.job.description),
+      (form.salary = state.job.salary),
+      (form.location = state.job.location),
+      (form.company.name = state.job.company.name),
+      (form.company.description = state.job.company.description),
+      (form.company.contactEmail = state.job.company.contactEmail),
+      (form.company.contactPhone = state.job.company.contactPhone);
   } catch (error) {
     console.log(error);
   } finally {
@@ -49,7 +49,7 @@ onMounted(async () => {
 });
 const handleSubmit = async () => {
   console.log(form.title);
-  const newJob = {
+  const updatedJob = {
     type: form.type,
     title: form.title,
     description: form.description,
@@ -62,9 +62,9 @@ const handleSubmit = async () => {
       contactPhone: form.company.contactPhone
     }
   };
-  console.log('Submitted', newJob);
+  console.log('Submitted', updatedJob);
   try {
-    const response = await axios.post('/api/jobs', newJob);
+    const response = await axios.put(`/api/jobs/${jobId}`, updatedJob);
     router.push(`/jobs/${response.data.id}`);
     toast.success('Job is Added Successfully');
   } catch (error) {
