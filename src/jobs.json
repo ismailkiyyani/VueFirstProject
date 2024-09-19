@@ -99,34 +99,6 @@
       }
     },
     {
-      "id": "5d1c",
-      "type": "Remote",
-      "title": "cscs",
-      "description": "ssscs",
-      "salary": "$70K - $80K",
-      "location": "cscs",
-      "company": {
-        "name": "cscs",
-        "description": "cscsc",
-        "contactEmail": "cc@lmail.cpm",
-        "contactPhone": "cscs"
-      }
-    },
-    {
-      "id": "63fd",
-      "type": "Remote",
-      "title": "software engineer",
-      "description": "dfdfsfssfsfssfsdf",
-      "salary": "$175K - $200K",
-      "location": "Placeat quia perspi",
-      "company": {
-        "name": "Dunlap Myers Co",
-        "description": "fdsdfsdf vfsvdv vsdv",
-        "contactEmail": "cscscscsc@ffmail.co",
-        "contactPhone": "+1 (796) 961-1435"
-      }
-    },
-    {
       "id": "12f9",
       "type": "Remote",
       "title": "Vue Dev",
@@ -138,6 +110,34 @@
         "description": "cf devdsv edfdvdsvrwgvf dsvfsdv",
         "contactEmail": "lazuducu@mailinator.com",
         "contactPhone": "+1 (912) 397-5409"
+      }
+    },
+    {
+      "id": "294b",
+      "type": "Part-Time",
+      "title": "uc1",
+      "description": "vv",
+      "salary": "Under $50K",
+      "location": "Veritatis aut beatae",
+      "company": {
+        "name": "Murphy Williams Associates",
+        "description": "vvd",
+        "contactEmail": "cc@lmail.cpm",
+        "contactPhone": "+1 (912) 397-5409"
+      }
+    },
+    {
+      "id": "b704",
+      "type": "Full-Time",
+      "title": "Front-End Engineer (Vue)",
+      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "salary": "$70K - $80K",
+      "location": "Miami, FL",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.Reach us for more info.",
+        "contactEmail": "contact@loremipsum.com",
+        "contactPhone": "555-555-5555"
       }
     }
   ]
